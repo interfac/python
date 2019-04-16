@@ -1,7 +1,7 @@
 def add(a,b):
  print "The addition is ",a+b
 def sub(a,b):
- print "The addition is ",a-b
+ print "The subtraction is ",a-b
 
 print("Enter 1 for add")
 print("Enter 2 for sub")
