@@ -1,6 +1,6 @@
-def add():
+def add(a,b):
  print("The addition is ",a+b)
-def sub():
+def sub(a,b):
  print("The addition is ",a-b)
 
 print("Enter 1 for add")
