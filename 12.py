@@ -1,7 +1,15 @@
+def add():
+ print("The addition is ",a+b)
+def sub():
+ print("The addition is ",a-b)
+
 print("Enter 1 for add")
 print("Enter 2 for sub")
 print("Choose")
 x=input("Now")
-print(x)
+a=input("Enter the 1st number")
+b=input("Enter the 2nd number")
 if x==1:
- print("True")
+ add(a,b)
+else:
+ sub(a,b)
