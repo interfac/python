@@ -20,7 +20,9 @@ while True:
  print("Enter 2 for sub")
  print("Enter 3 for mul")
  print("Enter 4 for div")
+ print("Enter q for quit")
  x=input("Choose Now\n")
+ print(x)
  if x==1:
   add()
  elif x==2:
@@ -29,6 +31,7 @@ while True:
   mul()
  elif x==4:
   div()
+ elif x == 'q':
+  break
  else:
   print("Wrong Choice")
-  break
