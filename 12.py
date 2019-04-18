@@ -14,6 +14,9 @@ def mul():
 def div():
  c, d=in1()
  print "The division is ",c/d
+def pow():
+ c,d=in1()
+ print "The power is ", c^d
 
 while True:
  print("Enter 1 for add")
@@ -21,6 +24,7 @@ while True:
  print("Enter 3 for mul")
  print("Enter 4 for div")
  print("Enter q for quit")
+ print("Enter 5 for power")
  x=input("Choose Now\n")
  print(x)
  if x==1:
@@ -31,6 +35,8 @@ while True:
   mul()
  elif x==4:
   div()
+ elif x==5:
+  pow()
  elif x == 'q':
   break
  else:
