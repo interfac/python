@@ -23,8 +23,8 @@ while True:
  print("Enter 2 for sub")
  print("Enter 3 for mul")
  print("Enter 4 for div")
- print("Enter 5 for mod")
- print("Enter 6 for quit")
+ print("Enter 6 for mod")
+ print("Enter 7 for quit")
  x=input("Choose Now\n")
  print(x)
  if x==1:
@@ -35,9 +35,9 @@ while True:
   mul()
  elif x==4:
   div()
- elif x == 5:
-  mod()
  elif x == 6:
+  mod()
+ elif x == 7:
   break
  else:
   print("Wrong Choice")
