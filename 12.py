@@ -25,7 +25,7 @@ while True:
  print("Enter 1 for add")
  print("Enter 2 for sub")
  print("Enter 3 for mul")
- print("Enter 4 for div"
+ print("Enter 4 for div")
  print("Enter 5 for power")
  print("Enter 6 for mod")
  print("Enter 7 for quit")
