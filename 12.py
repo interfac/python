@@ -16,7 +16,7 @@ def div():
  print "The division is ",c/d
 def pow():
  c,d=in1()
- print "The power is ", c^d
+ print "The power is ", c**d
 
 while True:
  print("Enter 1 for add")
@@ -37,7 +37,7 @@ while True:
   div()
  elif x==5:
   pow()
- elif x == 'q':
+ elif x == q:
   break
  else:
   print("Wrong Choice")
