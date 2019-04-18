@@ -20,7 +20,7 @@ while True:
  print("Enter 2 for sub")
  print("Enter 3 for mul")
  print("Enter 4 for div")
- print("Enter q for quit")
+ print("Enter 5 for quit")
  x=input("Choose Now\n")
  print(x)
  if x==1:
